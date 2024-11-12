@@ -76,6 +76,8 @@ body {
 Make it animate nicely. You'll need CSS3 for this */
 .rot90 {
     /* Add 90-degree rotation */
+    transition: transform 0.5s ease;
+    transform: rotate(90deg);
 }
 
 /* Add CSS styles to rotate the element 180deg
@@ -89,4 +91,6 @@ Make it animate nicely. You'll need CSS3 for this */
 Make it animate nicely. You'll need CSS3 for this */
 .rot270 {
     /* Add 270-degree rotation */
+    transition: transform 0.5s ease;
+    transform: rotate(270deg);
 }
